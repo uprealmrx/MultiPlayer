@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Siddhant\\MultiPlayer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|c:\\siddhant\\multiplayer\\assets\\scripts\\buttonsscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonsscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|c:\\siddhant\\multiplayer\\assets\\scripts\\selectionscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\selectionscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|C:\\Siddhant\\MultiPlayer\\assets\\scripts\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|C:\\Siddhant\\MultiPlayer\\assets\\scripts\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|C:\\Siddhant\\MultiPlayer\\assets\\scripts\\nerworkspwaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\nerworkspwaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|C:\\Siddhant\\MultiPlayer\\assets\\scripts\\lobbyuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lobbyuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|C:\\Siddhant\\MultiPlayer\\assets\\scripts\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|C:\\Siddhant\\MultiPlayer\\assets\\scripts\\demoinputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\demoinputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|C:\\Siddhant\\MultiPlayer\\assets\\scripts\\networkinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\networkinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ButtonsScript.cs",
+              "DocumentMoniker": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\ButtonsScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonsScript.cs",
+              "ToolTip": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\ButtonsScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonsScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T13:44:42.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SelectionScene.cs",
+              "DocumentMoniker": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\SelectionScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SelectionScene.cs",
+              "ToolTip": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\SelectionScene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SelectionScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T13:15:12.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LevelData.cs",
+              "DocumentMoniker": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\LevelData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelData.cs",
+              "ToolTip": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\LevelData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T13:07:07.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NetworkInputs.cs",
+              "DocumentMoniker": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\NetworkInputs.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NetworkInputs.cs",
+              "ToolTip": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\NetworkInputs.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NetworkInputs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T13:06:37.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DemoInputManager.cs",
+              "DocumentMoniker": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\DemoInputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DemoInputManager.cs",
+              "ToolTip": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\DemoInputManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DemoInputManager.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwDAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T10:38:20.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DemoController.cs",
+              "DocumentMoniker": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\DemoController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DemoController.cs",
+              "ToolTip": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\DemoController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DemoController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:09:37.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LobbyUIManager.cs",
+              "DocumentMoniker": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\LobbyUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LobbyUIManager.cs",
+              "ToolTip": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\LobbyUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LobbyUIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T06:58:54.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager.cs",
+              "ToolTip": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T06:46:18.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NerworkSpwaner.cs",
+              "DocumentMoniker": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\NerworkSpwaner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NerworkSpwaner.cs",
+              "ToolTip": "C:\\Siddhant\\MultiPlayer\\Assets\\Scripts\\NerworkSpwaner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NerworkSpwaner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T06:45:19.539Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
