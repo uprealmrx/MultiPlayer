@@ -1,42 +1,45 @@
+using Fusion;
 using TMPro;
 using UnityEngine;
 
 public class ButtonsScript : MonoBehaviour
 {
-    public int _myIndex;
-    private int _index;
-    public float _minindex;
-    public float _maxindex;
-    public TextMeshProUGUI _prefIndex;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public PlayerRef player;
+    public int currentIndex;
+
+    [SerializeField] private int minIndex;
+    [SerializeField] private int maxIndex;
+    [SerializeField] private TextMeshProUGUI prefIndexText;
+
+    public void Init(PlayerRef owner)
     {
-        
+        player = owner;
+        UpdateText();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Next()
     {
-        
+        if (currentIndex < maxIndex)
+            currentIndex++;
+
+        UpdateText();
     }
-    public void next()
+
+    public void Previous()
     {
-        if (_index > _minindex)
-        {
-            _index++;
-        }
-        _prefIndex.text = _index.ToString();
+        if (currentIndex > minIndex)
+            currentIndex--;
+
+        UpdateText();
     }
-    public void previous()
-    {
-        if(_index < _minindex)
-        {
-            _index--;
-        }
-        _prefIndex.text = _index.ToString();
-    }
+
     public void Lock()
     {
-        Manager.Instance.playersinLobby[_myIndex]._prefabIndex = _index;
+        Manager.Instance.SetPrefabIndex(player, currentIndex);
+    }
+
+    private void UpdateText()
+    {
+        prefIndexText.text = currentIndex.ToString();
     }
 }

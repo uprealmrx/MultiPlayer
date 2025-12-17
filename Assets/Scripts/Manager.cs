@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class Manager : NetworkBehaviour
 {
+    public NetworkManager _networkManager; 
+    public LobbyUIManager _lobbyUIManager;
+
+    public LevelData _levelData;
+
     public static Manager Instance;
 
-    public NetworkManager _networkManager;
-    public LobbyUIManager _lobbyUIManager;
-    public LevelData _levelData;
-    public List<LevelData> playersinLobby;
+    public List<LevelData> playersInLobby = new();
+
     private void Awake()
     {
         if (Instance != null)
@@ -17,16 +20,42 @@ public class Manager : NetworkBehaviour
             Destroy(gameObject);
             return;
         }
+
         Instance = this;
-        DontDestroyOnLoad(this.gameObject);
-        playersinLobby = new List<LevelData>();
+        DontDestroyOnLoad(gameObject);
     }
-    public void addtolist(LevelData data)
+
+    // Called in selection scene
+    public void AddPlayer(PlayerRef player, int prefabIndex)
     {
-        playersinLobby.Add(data);
+        if (playersInLobby.Exists(p => p.player == player))
+            return;
+
+        playersInLobby.Add(new LevelData
+        {
+            player = player,
+            _prefabIndex = prefabIndex
+        });
     }
-    public void removetolist(LevelData data)
+
+    public void RemovePlayer(PlayerRef player)
     {
-        playersinLobby.Remove(data);
+        playersInLobby.RemoveAll(p => p.player == player);
     }
+
+    // Used in game scene
+    public int GetPrefabIndex(PlayerRef player)
+    {
+        var data = playersInLobby.Find(p => p.player == player);
+        return data != null ? data._prefabIndex : 0;
+    }
+    public void SetPrefabIndex(PlayerRef player, int index)
+    {
+        var data = playersInLobby.Find(p => p.player == player);
+        if (data != null)
+        {
+            data._prefabIndex = index;
+        }
+    }
+
 }

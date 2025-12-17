@@ -2,53 +2,65 @@ using Fusion;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MyNetworkSpwaner : NetworkBehaviour, IPlayerJoined, IPlayerLeft
+public class MyNetworkSpawner : NetworkBehaviour,IPlayerLeft
 {
     [SerializeField] private List<NetworkPrefabRef> playerPref;
+    [SerializeField, Range(0, 10)] private float randomSpawnPosition;
 
-    [SerializeField, Range(0, 10)]
-    private float randomeSpawnPosition;
-    public Dictionary<PlayerRef, NetworkObject> playersinLobby;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private Dictionary<PlayerRef, NetworkObject> playersInGame = new();
+
+    private void SpawnAllPlayers()
     {
-        playersinLobby = new Dictionary<PlayerRef, NetworkObject>();
+        foreach (var player in Runner.ActivePlayers)
+        {
+            SpawnPlayer(player);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void Spawned()
     {
+        if (!Runner.IsServer)
+            return;
 
+        foreach (var player in Runner.ActivePlayers)
+        {
+            SpawnPlayer(player);
+        }
     }
 
-
-    public void PlayerJoined(PlayerRef player)
+    private void SpawnPlayer(PlayerRef player)
     {
-        SpawnPlayerPrefab(player);
+        if (playersInGame.ContainsKey(player))
+            return;
+
+        int prefabIndex = Manager.Instance.GetPrefabIndex(player);
+
+        Vector3 spawnPos = new Vector3(
+            Random.Range(-randomSpawnPosition, randomSpawnPosition),
+            0,
+            Random.Range(-randomSpawnPosition, randomSpawnPosition)
+        );
+
+        NetworkObject obj = Runner.Spawn(
+            playerPref[prefabIndex],
+            spawnPos,
+            Quaternion.identity,
+            player
+        );
+
+        playersInGame[player] = obj;
     }
+
 
     public void PlayerLeft(PlayerRef player)
     {
-        DeSpawnPrefab(player);
-    }
-    private void SpawnPlayerPrefab(PlayerRef player)
-    {
-        if (Runner.IsServer)
-        {
-            foreach(var r in Manager.Instance.playersinLobby)
-            {
-                var spwanPos = new Vector3(Random.Range(-randomeSpawnPosition, randomeSpawnPosition), 0, Random.Range(-randomeSpawnPosition, randomeSpawnPosition));
-                var cubePlayer = Runner.Spawn(playerPref[r._prefabIndex], spwanPos, Quaternion.identity, player);
-                playersinLobby.Add(player, cubePlayer);
-            }
-        }
-    }
-    private void DeSpawnPrefab(PlayerRef pref)
-    {
-        if (playersinLobby.TryGetValue(pref, out var obj))
+        if (!Runner.IsServer)
+            return;
+
+        if (playersInGame.TryGetValue(player, out NetworkObject obj))
         {
             Runner.Despawn(obj);
-            playersinLobby.Remove(pref);
+            playersInGame.Remove(player);
         }
     }
 }

@@ -528,7 +528,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7424117380116881841}
         m_TargetAssemblyTypeName: ButtonsScript, Assembly-CSharp
-        m_MethodName: next
+        m_MethodName: Next
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -797,7 +797,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7424117380116881841}
         m_TargetAssemblyTypeName: ButtonsScript, Assembly-CSharp
-        m_MethodName: previous
+        m_MethodName: Previous
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -900,10 +900,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1376240d74b6074aa1d1432ea85dba8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _myIndex: 0
-  _minindex: 0
-  _maxindex: 2
-  _prefIndex: {fileID: 6825833968090530716}
+  currentIndex: 0
+  minIndex: 0
+  maxIndex: 2
+  prefIndexText: {fileID: 6825833968090530716}
 --- !u!114 &3693682513224474941
 MonoBehaviour:
   m_ObjectHideFlags: 0
