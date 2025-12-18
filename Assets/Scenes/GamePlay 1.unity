@@ -308,7 +308,7 @@ MonoBehaviour:
   - RawGuidValue: 2377a842155d2ec4aa6cbcd88a21830a
   - RawGuidValue: 53f25fc128aeadc48a685ea1ebc9a853
   - RawGuidValue: 079da0a5ba8867e4389a42920cf72b19
-  randomeSpawnPosition: 3
+  randomSpawnPosition: 3
 --- !u!1 &873367219
 GameObject:
   m_ObjectHideFlags: 0

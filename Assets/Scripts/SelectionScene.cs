@@ -46,6 +46,7 @@ public class SelectionScene : NetworkBehaviour, IPlayerJoined, IPlayerLeft
 
         button.transform.SetParent(_parentPlayerSelection, false);
         var ui = button.GetComponent<ButtonsScript>();
+        ui._myIndex = PlayerCount;
         ui.Init(player);
 
         LevelData data = new LevelData();

@@ -5,6 +5,7 @@ using UnityEngine;
 public class ButtonsScript : MonoBehaviour
 {
     public PlayerRef player;
+    public int _myIndex;
     public int currentIndex;
 
     [SerializeField] private int minIndex;
@@ -35,7 +36,7 @@ public class ButtonsScript : MonoBehaviour
 
     public void Lock()
     {
-        Manager.Instance.SetPrefabIndex(player, currentIndex);
+        Manager.Instance.SetPrefabIndex(player, currentIndex,_myIndex);
     }
 
     private void UpdateText()

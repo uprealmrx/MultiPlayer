@@ -7,7 +7,7 @@ public class Manager : NetworkBehaviour
     public NetworkManager _networkManager; 
     public LobbyUIManager _lobbyUIManager;
 
-    public LevelData _levelData;
+    //public LevelData _levelData;
 
     public static Manager Instance;
 
@@ -25,16 +25,15 @@ public class Manager : NetworkBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    // Called in selection scene
-    public void AddPlayer(PlayerRef player, int prefabIndex)
+    public void AddPlayer(PlayerRef player, int playerIndex)
     {
-        if (playersInLobby.Exists(p => p.player == player))
-            return;
+        //if (playersInLobby.Exists(p => p.player == player))
+        //    return;
 
         playersInLobby.Add(new LevelData
         {
             player = player,
-            _prefabIndex = prefabIndex
+            _playerIndex = playerIndex
         });
     }
 
@@ -43,19 +42,25 @@ public class Manager : NetworkBehaviour
         playersInLobby.RemoveAll(p => p.player == player);
     }
 
-    // Used in game scene
     public int GetPrefabIndex(PlayerRef player)
     {
         var data = playersInLobby.Find(p => p.player == player);
         return data != null ? data._prefabIndex : 0;
     }
-    public void SetPrefabIndex(PlayerRef player, int index)
+    public void SetPrefabIndex(PlayerRef player, int index, int myindex)
     {
-        var data = playersInLobby.Find(p => p.player == player);
-        if (data != null)
+        foreach (var p in playersInLobby)
         {
-            data._prefabIndex = index;
+           if(p._playerIndex == myindex)
+           {
+                if (p != null)
+                {
+                    p._prefabIndex = index;
+                }
+           }
         }
+        //var data = playersInLobby.Find(p => p.player == player);
+
     }
 
 }

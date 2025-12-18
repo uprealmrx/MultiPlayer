@@ -167,6 +167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _networkManager: {fileID: 993198171}
   _lobbyUIManager: {fileID: 960340781}
+  playersInLobby: []
 --- !u!114 &64394993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3232,5 +3233,5 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 960340780}
   - {fileID: 1461923263}
-  - {fileID: 1757042465}
   - {fileID: 64394991}
+  - {fileID: 1757042465}

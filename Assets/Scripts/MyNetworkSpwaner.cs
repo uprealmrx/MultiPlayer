@@ -43,7 +43,7 @@ public class MyNetworkSpawner : NetworkBehaviour,IPlayerLeft
 
         NetworkObject obj = Runner.Spawn(
             playerPref[prefabIndex],
-            spawnPos,
+            spawnPos, 
             Quaternion.identity,
             player
         );

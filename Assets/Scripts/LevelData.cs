@@ -7,4 +7,5 @@ public class LevelData
     public PlayerRef player;
     public float _force;
     public int _prefabIndex;
+    public int _playerIndex;
 }
