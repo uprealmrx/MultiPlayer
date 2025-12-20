@@ -7,26 +7,27 @@ public class SelectionScene : NetworkBehaviour, IPlayerJoined, IPlayerLeft
 {
     private NetworkSceneManagerDefault _networkSceneManagerDefault;
     public Transform _parentPlayerSelection;
-    public NetworkPrefabRef _prefab;
+    public GameObject _prefab;
 
-    private Dictionary<PlayerRef, NetworkObject> _playerButtons = new();
+    private Dictionary<PlayerRef, GameObject> _playerButtons = new();
     public int PlayerCount;
     public void PlayerJoined(PlayerRef player)
     {
-        if (!Runner.IsServer)
-            return;
+        //if (!Runner.IsServer)
+            //return;
 
         SpawnPrefab(player);
     }
 
     public void PlayerLeft(PlayerRef player)
     {
-        if (!Runner.IsServer)
-            return;
+        //if (!Runner.IsServer)
+            //return;
 
-        if (_playerButtons.TryGetValue(player, out NetworkObject button))
+        if (_playerButtons.TryGetValue(player, out GameObject button))
         {
-            Runner.Despawn(button);
+            Destroy(button);
+            //Runner.Despawn(button);
             _playerButtons.Remove(player);
             Manager.Instance.RemovePlayer(player);
             PlayerCount--;
@@ -42,13 +43,17 @@ public class SelectionScene : NetworkBehaviour, IPlayerJoined, IPlayerLeft
     }
     private void SpawnPrefab(PlayerRef player)
     {
-        var button = Runner.Spawn(_prefab, Vector3.zero, Quaternion.identity);
+        //var button = Runner.Spawn(_prefab, Vector3.zero, Quaternion.identity);
+        var button = Instantiate(_prefab,Vector3.zero,Quaternion.identity, _parentPlayerSelection);
 
         button.transform.SetParent(_parentPlayerSelection, false);
         var ui = button.GetComponent<ButtonsScript>();
         ui._myIndex = PlayerCount;
         ui.Init(player);
-
+        if (Runner.IsServer)
+        {
+            ui.OnButtons();
+        }
         LevelData data = new LevelData();
         Manager.Instance.AddPlayer(Runner.LocalPlayer, PlayerCount);
 

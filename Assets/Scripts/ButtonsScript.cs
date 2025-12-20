@@ -11,6 +11,7 @@ public class ButtonsScript : MonoBehaviour
     [SerializeField] private int minIndex;
     [SerializeField] private int maxIndex;
     [SerializeField] private TextMeshProUGUI prefIndexText;
+    [SerializeField] private GameObject SelectionButtons;
 
     public void Init(PlayerRef owner)
     {
@@ -33,7 +34,10 @@ public class ButtonsScript : MonoBehaviour
 
         UpdateText();
     }
-
+    public void OnButtons()
+    {
+        SelectionButtons.SetActive(true);
+    }
     public void Lock()
     {
         Manager.Instance.SetPrefabIndex(player, currentIndex,_myIndex);

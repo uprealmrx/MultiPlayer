@@ -621,8 +621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentPlayerSelection: {fileID: 1998855800}
-  _prefab:
-    RawGuidValue: 52a36e237bc993e4687aae6e730803ce
+  _prefab: {fileID: 8031113887145862194, guid: 52a36e237bc993e4687aae6e730803ce, type: 3}
   PlayerCount: 0
 --- !u!114 &815364448
 MonoBehaviour:
