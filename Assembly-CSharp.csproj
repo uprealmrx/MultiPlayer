@@ -62,11 +62,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\NetworkInputs.cs" />
+    <Compile Include="Assets\Scripts\New Scripts\LocalManager.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.15.1\Controller XRInput\Scripts\ActionToVector2SliderXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.15.1\Controller XRInput\Scripts\ActionToButtonXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.15.1\Controller XRInput\Scripts\ActionToControlXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.15.1\Controller XRInput\Scripts\ActionToControlXRInputHand.cs" />
     <Compile Include="Assets\Scripts\NetworkManager.cs" />
+    <Compile Include="Assets\Scripts\New Scripts\NewManager.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.15.1\Controller XRInput\Scripts\ActionToHapticsXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.15.1\Controller XRInput\Scripts\PoseProvider_NameDevice.cs" />
     <Compile Include="Assets\Scripts\DemoController.cs" />
@@ -76,7 +78,10 @@
     <Compile Include="Assets\Scripts\LobbyUIManager.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.15.1\Controller XRInput\Scripts\DisplayDeviceInfoFromActionXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.15.1\Controller XRInput\Scripts\ActionToDeviceInfoXRInput.cs" />
+    <Compile Include="Assets\Scripts\New Scripts\RoleAssignmentObject.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.15.1\Controller XRInput\Scripts\ActionToVisibilityXRInputHand.cs" />
+    <Compile Include="Assets\Scripts\New Scripts\SelectionCache.cs" />
+    <Compile Include="Assets\Scripts\New Scripts\LobbyManager.cs" />
     <Compile Include="Assets\Scripts\NerworkSpwaner.cs" />
     <Compile Include="Assets\Scripts\MyNetworkSpwaner.cs" />
     <Compile Include="Assets\Scripts\Manager.cs" />
@@ -87,13 +92,16 @@
     <Compile Include="Assets\Scripts\DemoNetworkObject.cs" />
     <Compile Include="Assets\Scripts\ButtonsScript.cs" />
     <Compile Include="Assets\Scripts\LevelData.cs" />
+    <Compile Include="Assets\Scripts\New Scripts\PlayerSelectionData.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.15.1\Controller XRInput\Scripts\ActionToAxisXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.15.1\Controller XRInput\Scripts\ActionToVisibilityXRInput.cs" />
+    <Compile Include="Assets\Scripts\New Scripts\Player Spawner.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.15.1\Controller XRInput\Scripts\ActionToAxisXRInputHand.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.15.1\Controller XRInput\Scripts\ActionToSliderXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.15.1\Controller XRInput\Scripts\ActionToVector2XRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.15.1\Controller XRInput\Scripts\PoseProvider.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.15.1\Controller XRInput\Scripts\MarkLateLatchNodeXRInput.cs" />
+    <Compile Include="Assets\Scripts\New Scripts\NetworkRunnerHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Photon\Fusion\Plugins\NanoSockets\libnanosockets_LICENSE.txt" />

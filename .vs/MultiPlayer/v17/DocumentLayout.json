@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\Siddhant\\Unity\\MultiPlayer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\new scripts\\lobbymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\new scripts\\lobbymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\new scripts\\localmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\new scripts\\localmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|d:\\siddhant\\unity\\multiplayer\\assets\\scripts\\playercameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|d:\\siddhant\\unity\\multiplayer\\assets\\scripts\\selectionscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\new scripts\\player spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\new scripts\\player spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|d:\\siddhant\\unity\\multiplayer\\assets\\scripts\\new scripts\\playerselectiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\new scripts\\playerselectiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\selectionscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\selectionscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\networkinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\networkinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\mynetworkspwaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mynetworkspwaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\buttonsscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,16 +35,48 @@
       "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lobbyuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\demoinputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\demoinputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\new scripts\\networkrunnerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\new scripts\\networkrunnerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\new scripts\\roleassignmentobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\new scripts\\roleassignmentobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\new scripts\\selectioncache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\new scripts\\selectioncache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\new scripts\\newmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\new scripts\\newmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\networkinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\networkinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\mynetworkspwaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mynetworkspwaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E5EC9F-3E63-656D-9304-1AB10DB8B810}|Unity.Fusion.CodeGen.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\photon\\fusion\\codegen\\fusion.codegen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E5EC9F-3E63-656D-9304-1AB10DB8B810}|Unity.Fusion.CodeGen.csproj|solutionrelative:assets\\photon\\fusion\\codegen\\fusion.codegen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\demoinputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\demoinputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93C59DAD-DF78-0400-AF8C-CA4F037199D6}|Assembly-CSharp.csproj|D:\\Siddhant\\Unity\\MultiPlayer\\assets\\scripts\\nerworkspwaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,71 +90,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Manager.cs",
-              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\Manager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager.cs",
-              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\Manager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Manager.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwAkAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LobbyManager.cs",
+              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\New Scripts\\LobbyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\New Scripts\\LobbyManager.cs",
+              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\New Scripts\\LobbyManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\New Scripts\\LobbyManager.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAywI4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T06:46:18.863Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SelectionScene.cs",
-              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\SelectionScene.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SelectionScene.cs",
-              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\SelectionScene.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SelectionScene.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T13:15:12.529Z",
+              "WhenOpened": "2025-12-22T10:24:21.523Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerCameraControl.cs",
-              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\PlayerCameraControl.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCameraControl.cs",
-              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\PlayerCameraControl.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerCameraControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "LobbyUIManager.cs",
+              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\LobbyUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LobbyUIManager.cs",
+              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\LobbyUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LobbyUIManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T07:22:09.29Z",
+              "WhenOpened": "2025-12-12T06:58:54.339Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NetworkManager.cs",
-              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\NetworkManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\NetworkManager.cs",
-              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\NetworkManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\NetworkManager.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAQwFMAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "PlayerSelectionData.cs",
+              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\New Scripts\\PlayerSelectionData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\New Scripts\\PlayerSelectionData.cs",
+              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\New Scripts\\PlayerSelectionData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\New Scripts\\PlayerSelectionData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T14:25:22.497Z"
+              "WhenOpened": "2025-12-23T09:33:48.275Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MyNetworkSpwaner.cs",
-              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\MyNetworkSpwaner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MyNetworkSpwaner.cs",
-              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\MyNetworkSpwaner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MyNetworkSpwaner.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCsAAAAiAAAAAAAAAA==",
+              "Title": "SelectionScene.cs",
+              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\SelectionScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SelectionScene.cs",
+              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\SelectionScene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SelectionScene.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wCgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T14:18:07.569Z"
+              "WhenOpened": "2025-12-12T13:15:12.529Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -132,25 +154,127 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonsScript.cs",
               "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\ButtonsScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\ButtonsScript.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCYAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T13:44:42.83Z"
+              "WhenOpened": "2025-12-12T13:44:42.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player Spawner.cs",
+              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\New Scripts\\Player Spawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\New Scripts\\Player Spawner.cs",
+              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\New Scripts\\Player Spawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\New Scripts\\Player Spawner.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvzAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T10:55:07.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LocalManager.cs",
+              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\New Scripts\\LocalManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\New Scripts\\LocalManager.cs",
+              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\New Scripts\\LocalManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\New Scripts\\LocalManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T06:04:45.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager.cs",
+              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T06:46:18.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerCameraControl.cs",
+              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\PlayerCameraControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCameraControl.cs",
+              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\PlayerCameraControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerCameraControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T07:22:09.29Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "RoleAssignmentObject.cs",
+              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\New Scripts\\RoleAssignmentObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\New Scripts\\RoleAssignmentObject.cs",
+              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\New Scripts\\RoleAssignmentObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\New Scripts\\RoleAssignmentObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T10:28:48.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NetworkRunnerHandler.cs",
+              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\New Scripts\\NetworkRunnerHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\New Scripts\\NetworkRunnerHandler.cs",
+              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\New Scripts\\NetworkRunnerHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\New Scripts\\NetworkRunnerHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T10:18:11.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SelectionCache.cs",
+              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\New Scripts\\SelectionCache.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\New Scripts\\SelectionCache.cs",
+              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\New Scripts\\SelectionCache.cs",
+              "RelativeToolTip": "Assets\\Scripts\\New Scripts\\SelectionCache.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T05:52:41.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NewManager.cs",
+              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\New Scripts\\NewManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\New Scripts\\NewManager.cs",
+              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\New Scripts\\NewManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\New Scripts\\NewManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T12:36:58.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "LevelData.cs",
               "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\LevelData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelData.cs",
               "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\LevelData.cs",
               "RelativeToolTip": "Assets\\Scripts\\LevelData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-12T13:07:07.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "NetworkInputs.cs",
               "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\NetworkInputs.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NetworkInputs.cs",
@@ -162,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "DemoInputManager.cs",
               "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\DemoInputManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DemoInputManager.cs",
@@ -174,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 17,
               "Title": "DemoController.cs",
               "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\DemoController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DemoController.cs",
@@ -182,24 +306,35 @@
               "RelativeToolTip": "Assets\\Scripts\\DemoController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:09:37.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T09:09:37.731Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LobbyUIManager.cs",
-              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\LobbyUIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LobbyUIManager.cs",
-              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\LobbyUIManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LobbyUIManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "MyNetworkSpwaner.cs",
+              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\MyNetworkSpwaner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MyNetworkSpwaner.cs",
+              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\MyNetworkSpwaner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MyNetworkSpwaner.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T06:58:54.339Z"
+              "WhenOpened": "2025-12-12T14:18:07.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
+              "Title": "Fusion.CodeGen.cs",
+              "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Photon\\Fusion\\CodeGen\\Fusion.CodeGen.cs",
+              "RelativeDocumentMoniker": "Assets\\Photon\\Fusion\\CodeGen\\Fusion.CodeGen.cs",
+              "ToolTip": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Photon\\Fusion\\CodeGen\\Fusion.CodeGen.cs",
+              "RelativeToolTip": "Assets\\Photon\\Fusion\\CodeGen\\Fusion.CodeGen.cs",
+              "ViewState": "AgIAALYNAAAAAAAAAAD4vxIOAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T09:11:50.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "NerworkSpwaner.cs",
               "DocumentMoniker": "D:\\Siddhant\\Unity\\MultiPlayer\\Assets\\Scripts\\NerworkSpwaner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NerworkSpwaner.cs",

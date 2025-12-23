@@ -4,43 +4,46 @@ using UnityEngine;
 
 public class ButtonsScript : MonoBehaviour
 {
-    public PlayerRef player;
-    public int _myIndex;
+    public PlayerRef playerRef; // the player this button represents
     public int currentIndex;
-
     [SerializeField] private int minIndex;
     [SerializeField] private int maxIndex;
     [SerializeField] private TextMeshProUGUI prefIndexText;
     [SerializeField] private GameObject SelectionButtons;
 
-    public void Init(PlayerRef owner)
+    public void Init(PlayerRef refPlayer, int startingIndex = 0)
     {
-        player = owner;
+        playerRef = refPlayer;
+        currentIndex = startingIndex;
         UpdateText();
     }
 
     public void Next()
     {
-        if (currentIndex < maxIndex)
-            currentIndex++;
-
+        if (currentIndex < maxIndex) currentIndex++;
         UpdateText();
     }
 
     public void Previous()
     {
-        if (currentIndex > minIndex)
-            currentIndex--;
-
+        if (currentIndex > minIndex) currentIndex--;
         UpdateText();
     }
+
     public void OnButtons()
     {
         SelectionButtons.SetActive(true);
     }
+
     public void Lock()
     {
-        Manager.Instance.SetPrefabIndex(player, currentIndex,_myIndex);
+        var runner = FindAnyObjectByType<NetworkRunner>();
+
+        // ONLY HOST can assign selections
+        if (!runner.IsServer)
+            return;
+
+        LocalManager.Instance.SetSelection(playerRef, currentIndex);
     }
 
     private void UpdateText()

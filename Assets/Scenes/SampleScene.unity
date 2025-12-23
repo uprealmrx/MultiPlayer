@@ -166,8 +166,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _networkManager: {fileID: 993198171}
-  _lobbyUIManager: {fileID: 960340781}
-  playersInLobby: []
+  _PlayerPrefabIndex:
+    _items: []
 --- !u!114 &64394993
 MonoBehaviour:
   m_ObjectHideFlags: 0

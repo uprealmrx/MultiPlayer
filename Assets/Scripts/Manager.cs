@@ -1,66 +1,57 @@
-using Fusion;
-using System.Collections.Generic;
+﻿using Fusion;
 using UnityEngine;
 
 public class Manager : NetworkBehaviour
 {
-    public NetworkManager _networkManager; 
-    public LobbyUIManager _lobbyUIManager;
-
-    //public LevelData _levelData;
-
     public static Manager Instance;
-
-    public List<LevelData> playersInLobby = new();
+    public NetworkManager _networkManager;
+    [Networked, Capacity(16)]
+    public NetworkDictionary<PlayerRef, int> PlayerPrefabIndex => default;
 
     private void Awake()
     {
-        if (Instance != null)
-        {
-            Destroy(gameObject);
-            return;
-        }
-
         Instance = this;
+        Debug.Log("✅ Manager Spawned");
         DontDestroyOnLoad(gameObject);
     }
-
-    public void AddPlayer(PlayerRef player, int playerIndex)
+    public override void Spawned()
     {
-        //if (playersInLobby.Exists(p => p.player == player))
-        //    return;
 
-        playersInLobby.Add(new LevelData
-        {
-            player = player,
-            _playerIndex = playerIndex
-        });
     }
 
+    // HOST ONLY
+    public void AddPlayer(PlayerRef player)
+    {
+        if (!Object.HasStateAuthority) return;
+
+        if (!PlayerPrefabIndex.ContainsKey(player))
+            PlayerPrefabIndex.Add(player, 0);
+    }
+
+    // HOST ONLY
     public void RemovePlayer(PlayerRef player)
     {
-        playersInLobby.RemoveAll(p => p.player == player);
+        if (!Object.HasStateAuthority) return;
+
+        if (PlayerPrefabIndex.ContainsKey(player))
+            PlayerPrefabIndex.Remove(player);
+    }
+
+    // HOST ONLY
+    public void SetPrefabIndex(PlayerRef player, int prefabIndex)
+    {
+        if (!Object.HasStateAuthority) return;
+
+        if (PlayerPrefabIndex.ContainsKey(player))
+            PlayerPrefabIndex.Remove(player);
+
+        PlayerPrefabIndex.Add(player, prefabIndex);
     }
 
     public int GetPrefabIndex(PlayerRef player)
     {
-        var data = playersInLobby.Find(p => p.player == player);
-        return data != null ? data._prefabIndex : 0;
+        return PlayerPrefabIndex.ContainsKey(player)
+            ? PlayerPrefabIndex[player]
+            : 0;
     }
-    public void SetPrefabIndex(PlayerRef player, int index, int myindex)
-    {
-        foreach (var p in playersInLobby)
-        {
-           if(p._playerIndex == myindex)
-           {
-                if (p != null)
-                {
-                    p._prefabIndex = index;
-                }
-           }
-        }
-        //var data = playersInLobby.Find(p => p.player == player);
-
-    }
-
 }
